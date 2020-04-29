@@ -1263,6 +1263,18 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
+"@unform/core@^2.1.0":
+  version "2.1.0"
+  resolved "https://artifactory.softplan.com.br/artifactory/api/npm/npm/@unform/core/-/core-2.1.0.tgz#28c407f5446ed33d37a023ca931c7b61d2a3b425"
+  integrity sha1-KMQH9URu0z03oCPKkxx7YdKjtCU=
+  dependencies:
+    dot-object "^2.1.2"
+
+"@unform/mobile@^2.1.0":
+  version "2.1.0"
+  resolved "https://artifactory.softplan.com.br/artifactory/api/npm/npm/@unform/mobile/-/mobile-2.1.0.tgz#2ba964840277ec13d028c428b3d401190b7a2205"
+  integrity sha1-K6lkhAJ37BPQKMQos9QBGQt6IgU=
+
 abab@^2.0.0:
   version "2.0.3"
   resolved "https://artifactory.softplan.com.br/artifactory/api/npm/npm/abab/-/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"
@@ -2051,6 +2063,11 @@ commander@^2.11.0, commander@^2.19.0:
   resolved "https://artifactory.softplan.com.br/artifactory/api/npm/npm/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
 
+commander@^4.0.0:
+  version "4.1.1"
+  resolved "https://artifactory.softplan.com.br/artifactory/api/npm/npm/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
+  integrity sha1-n9YCvZNilOnp70aj9NaWQESxgGg=
+
 commander@~2.13.0:
   version "2.13.0"
   resolved "https://artifactory.softplan.com.br/artifactory/api/npm/npm/commander/-/commander-2.13.0.tgz#6964bca67685df7c1f1430c584f07d7597885b9c"
@@ -2377,6 +2394,14 @@ domexception@^1.0.1:
   integrity sha1-k3RCZEymoxJh7zbj7Gd/6AVYLJA=
   dependencies:
     webidl-conversions "^4.0.2"
+
+dot-object@^2.1.2:
+  version "2.1.3"
+  resolved "https://artifactory.softplan.com.br/artifactory/api/npm/npm/dot-object/-/dot-object-2.1.3.tgz#aa261fdefd232f0edb17e77ff4708bbed6f04b2e"
+  integrity sha1-qiYf3v0jLw7bF+d/9HCLvtbwSy4=
+  dependencies:
+    commander "^4.0.0"
+    glob "^7.1.5"
 
 ecc-jsbn@~0.1.1:
   version "0.1.2"
@@ -3231,7 +3256,7 @@ glob-parent@^5.0.0:
   dependencies:
     is-glob "^4.0.1"
 
-glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.6:
+glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.5, glob@^7.1.6:
   version "7.1.6"
   resolved "https://artifactory.softplan.com.br/artifactory/api/npm/npm/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
   integrity sha1-FB8zuBp8JJLhJVlDB0gMRmeSeKY=
